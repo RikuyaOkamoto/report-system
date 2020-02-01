@@ -5,8 +5,8 @@ import java.security.NoSuchAlgorithmException;
 
 import javax.xml.bind.DatatypeConverter;
 
-public class EccryptUtil {
-    public static String getPasswordEccrypt(String plain_p, String salt){
+public class EncryptUtil {
+    public static String getPasswordEncrypt(String plain_p, String salt){
         String ret = "";
 
         if(plain_p != null && !plain_p.equals("")){
