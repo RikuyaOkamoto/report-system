@@ -122,3 +122,6 @@ table#report_list .report_title{
 table#report_list .report_action{
     width: 13%;
 }
+pre{
+    font-family:"Hiragino kaku Gothic Pro",Meiryo,"Ms PGothic",Helvetica,Arial,sans-serif;
+}
